@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+/* Header start */
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+   background-color: crimson;
+   transition: all ease-in 0.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* Header end */
+/* From Start */
+
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 80px;
+    margin-top: 10px;
+    border-radius: 5%;
+    box-shadow: #262626;
+}
+.form1 input{
+    padding: 2px 20px;
+    border-color: crimson;
+    border-radius: 50px;
+}
+.form1 .btn{
+    font-weight: bold;
+}
+
+/* From end */
+
+
+/* Footer start */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(29, 27, 27);
+    width: 100%;
+    color: white;
+}
+
+.yo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text p{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+.icon i{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+
+}
+
+.copy{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+}

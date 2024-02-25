@@ -1,0 +1,16 @@
+a{
+    color: red;
+    text-decoration: none;
+    background-color: green;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: tomato;
+    background-color: black;
+}

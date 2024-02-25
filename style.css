@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    background-color: black;
+}
+
+body{
+    background-color: orchid;
+    background-image: url(css.jpg);
+    background-repeat: no-repeat;
+    background-position: 29% 30%;
+}
+p{
+    color: whitesmoke;
+}

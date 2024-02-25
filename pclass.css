@@ -1,0 +1,22 @@
+a:hover{
+    color: black;
+    background-color: white;
+
+}
+h2:nth-child(3){
+    color: red;
+}
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+h1::before{
+    content:url();
+
+}
+img{
+    width: 400px;
+}
+img:hover{
+    opacity:0.5;
+}
